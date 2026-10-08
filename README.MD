@@ -75,38 +75,13 @@ The `Customer` table stores customer information.
 
 The `Customer` table was modified using the `ALTER TABLE` command.
 
-### Add Date of Birth Column
-
-```sql
-ALTER TABLE Customer
-ADD COLUMN DateOfBirth DATE;
-
-Modify Phone Column
-
-The Phone column was modified from VARCHAR(15) to VARCHAR(20).
-
-ALTER TABLE Customer
-MODIFY COLUMN Phone VARCHAR(20);
-🔍 Data Retrieval
-
-The SELECT statement was used to retrieve and verify data from the created tables.
-
-SELECT * FROM accounts;
-
-SELECT * FROM Transaction;
-
-SELECT * FROM AccountBranches;
-
-SELECT * FROM Loans;
-
-SELECT * FROM Customer;
 🛠️ Technologies Used
 MySQL
 MySQL Workbench
 SQL
 📚 SQL Concepts Practiced
 
-This project covers the following SQL concepts:
+This project covers:
 
 USE
 CREATE TABLE
@@ -115,7 +90,6 @@ ALTER TABLE
 ADD COLUMN
 MODIFY COLUMN
 SQL Data Types
-Data Types Used
 INT
 VARCHAR
 FLOAT
@@ -124,19 +98,13 @@ DATE
 
 Through this SQL lab, I practiced:
 
-Creating and selecting a database
+Creating a database structure
 Creating tables using SQL
 Defining columns and data types
 Retrieving table data using SELECT
 Adding new columns using ALTER TABLE
 Modifying existing column definitions
 Working with a banking-related database structure
-
-📌 Project Outcome
-
-The project successfully creates a basic banking database structure with tables for accounts, transactions, account branches, loans, and customers.
-
-The Customer table was further modified by adding a DateOfBirth column and changing the Phone column size from VARCHAR(15) to VARCHAR(20).
 
 👩‍💻 Author
 
